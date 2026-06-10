@@ -29,6 +29,8 @@ RUN npm run build
 
 # ==================== 阶段 3: 运行应用 ====================
 FROM node:20-alpine AS runner
+# 安装 ca-certificates 确保容器有公共 CA 证书以发起 HTTPS 请求
+RUN apk add --no-cache ca-certificates
 WORKDIR /app
 
 # 设置环境变量
