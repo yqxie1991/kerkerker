@@ -1,0 +1,6 @@
+Track: secure-admin-api-endpoints
+Task: Enforce session validation for sensitive admin API endpoints.
+Details:
+- Identified that admin page routes are protected by proxy.ts (Next.js middleware equivalent in this environment), but underlying edit APIs lacked authentication.
+- Enforced validateSession checks on POST/PUT endpoints for dailymotion-config, database connection test, player-config, shorts-sources, and vod-sources APIs.
+- Verified build and routing successfully with Turbopack.
