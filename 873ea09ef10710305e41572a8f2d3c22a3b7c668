@@ -1,0 +1,3 @@
+Task: 升级 docker-compose.yml 至 bukan 品牌
+Track: docker-synology-deployment-optimization (Task 1)
+Summary: Initial migration of docker-compose.yml from kerkerker to bukan branding, including container names, network, volumes, and Synology disk-write optimizations (--nojournal, --wiredTigerCacheSizeGB).
