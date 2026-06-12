@@ -1,0 +1,3 @@
+Task: 添加容器源链接元数据标签到 GitHub Actions
+Track: docker-synology-deployment-optimization (Task 7)
+Summary: Added org.opencontainers.image.source label to GitHub Actions workflow to automatically link container package to the repository.
