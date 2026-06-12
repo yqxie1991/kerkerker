@@ -1,0 +1,3 @@
+Task: 添加群晖 AVX 兼容性说明
+Track: docker-synology-deployment-optimization (Task 8)
+Summary: Added detailed Synology AVX compatibility guide as comments in docker-compose.yml, explaining why MongoDB 5.0+ crashes on common Synology CPUs and how to switch to mongo:4.4.
