@@ -1,4 +1,4 @@
-# 🎬 Kerkerker - 影视资源聚合平台
+# 🎬 不看 (bukan) - 影视资源聚合平台
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 **现代化影视资源聚合平台** - 支持 Dailymotion 视频源、豆瓣信息匹配、多种部署方式
 
-🌐 **在线演示**: [https://kerkerker.vercel.app](https://kerkerker.vercel.app)
+🌐 **在线演示**: [https://bukan.vercel.app](https://kerkerker.vercel.app)
 
 [功能特性](#-功能特性) • [部署方式](#-部署方式) • [环境变量](#-环境变量) • [本地开发](#-本地开发)
 
@@ -84,8 +84,8 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/unilei/kerkerker.git
-cd kerkerker
+git clone https://github.com/unilei/kerkerker.git bukan
+cd bukan
 
 # 2. 创建配置文件
 cp .env.example .env
@@ -253,7 +253,7 @@ open http://localhost:3000
 ## 📁 项目结构
 
 ```
-kerkerker/
+bukan/                      # 本地项目目录
 ├── app/                    # Next.js App Router
 ├── components/             # React 组件
 │   └── player/             # 播放器组件
