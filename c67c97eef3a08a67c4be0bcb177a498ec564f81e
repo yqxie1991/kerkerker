@@ -1,0 +1,1 @@
+Task: 修复加密订阅链接由于解析为合法 JSON 而被前端明文校验误拦截的问题 | Summary: 修改前端 Tab 页解析明文逻辑，在设置 isJson 拦截标志之前校验是否包含加密特征（version/algorithm/data）。避免把加密的 JSON 配置当成明文处理并报解析失败，恢复解密接口的正常调用。 | Files: components/admin/VodSourcesTab.tsx, components/admin/ShortsSourcesTab.tsx, components/admin/DailymotionChannelsTab.tsx
