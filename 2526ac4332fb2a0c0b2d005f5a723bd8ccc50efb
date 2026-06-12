@@ -1,0 +1,1 @@
+Task: 重定向外部海报图片至本地代理接口以支持 Edge CDN 缓存加载 | Summary: 修改 getImageUrl 方法以使用本地图片代理 /api/image-proxy。通过服务端代理和 Vercel Edge 缓存，完美解决国内防盗链裂图和网络不佳导致的图片不显示问题。 | Files: lib/utils/image-utils.ts
