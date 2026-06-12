@@ -1,0 +1,1 @@
+Task: 修正默认管理员密码为 bukan 并更新登录页面提示 | Summary: 将 getAdminPassword 的默认硬编码密码从 admin123 更改为 bukan 以满足产品规范更名要求。同时修改登录页面的提示语为 默认密码：bukan。 | Files: lib/auth.ts, app/login/page.tsx
