@@ -1,0 +1,1 @@
+Task: 重构解密路由与前端导入 Tab，支持跨域免密代理拉取与多格式兼容解析 | Summary: 重构 /api/decrypt 接口以支持服务端免跨域代理拉取。对普通明文链接绕过解密强制校验；前端支持对返回数据的多格式智能提取（A、B、C、D格式），解决跨域和导入报错问题。 | Files: app/api/decrypt/route.ts, components/admin/VodSourcesTab.tsx, components/admin/ShortsSourcesTab.tsx, components/admin/DailymotionChannelsTab.tsx
