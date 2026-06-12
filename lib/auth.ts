@@ -5,7 +5,7 @@ const SESSION_COOKIE_NAME = 'admin_session';
 
 // 获取管理员密码（运行时动态读取环境变量，避免构建时被内联）
 function getAdminPassword(): string {
-  return process.env.ADMIN_PASSWORD || 'admin123';
+  return process.env.ADMIN_PASSWORD || 'bukan';
 }
 
 // 创建会话
