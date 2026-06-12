@@ -1,0 +1,7 @@
+Track: history-icon-smiley-sans-adaptation
+Task: Complete history icon scroll adaptation and Smiley Sans font styling for Bukan brand text.
+Details:
+- Modified HistoryPopup.tsx to support scrolled prop and apply text-white dynamically when page is not scrolled.
+- Updated Navbar.tsx to forward scrolled state to HistoryPopup.
+- Styled brand titles (Bukan) in movie details, search, browse, category, login, and admin pages with Smiley Sans font inline style.
+- Verified build and tests locally.
