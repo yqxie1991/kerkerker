@@ -147,7 +147,12 @@ function SettingsContent() {
       <div className="bg-[#141414] border-b border-[#333]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center gap-6">
-            <h1 className="text-2xl font-bold text-[#E50914]">不看</h1>
+            <h1 
+              className="text-2xl font-bold text-[#E50914]"
+              style={{ fontFamily: '"Smiley Sans", sans-serif' }}
+            >
+              不看
+            </h1>
             <span className="text-white text-lg">系统设置</span>
           </div>
           <button
