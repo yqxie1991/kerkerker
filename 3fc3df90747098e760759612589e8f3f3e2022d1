@@ -1,0 +1,12 @@
+Task: 将 MongoDB 默认镜像降级为 mongo:4.4 并升级数据卷命名
+
+Track: docker-synology-deployment-optimization
+Task 9 of Plan
+
+Summary:
+- Changed default MongoDB image from mongo:7 to mongo:4.4 to fix AVX-related crashes on Synology NAS CPUs (J3455, J4125, N5105, etc.)
+- Upgraded volume names from mongodb-data/mongodb-config to bukan-mongodb-data-v1/bukan-mongodb-config-v1 to prevent WiredTiger engine conflicts when downgrading MongoDB versions
+- Cleaned up redundant arrow comments for a professional config file
+
+Files Modified:
+- docker-compose.yml
