@@ -1,0 +1,1 @@
+Task: 修正默认 MongoDB 数据库名称默认值为 bukan | Summary: 修改 lib/db.ts 中 getDatabase 函数里的兜底数据库名称，由原先 the kerkerker 修正为 brand 更名后的 bukan。 | Files: lib/db.ts
