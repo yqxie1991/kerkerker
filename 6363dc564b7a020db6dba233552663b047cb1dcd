@@ -1,0 +1,1 @@
+Task: 增加手动填写源的功能，方便单条添加 | Summary: 重构后台视频源与短剧源写入接口以支持单条添加；在前端三个 Tab 页面中添加 手动添加 按钮，清空并配置初始表单，无缝唤醒组件原有的 Add/Edit 模态框，打通单个配置手动填写的链路。 | Files: lib/shorts-sources-db.ts, app/api/vod-sources/route.ts, app/api/shorts-sources/route.ts, components/admin/VodSourcesTab.tsx, components/admin/ShortsSourcesTab.tsx, components/admin/DailymotionChannelsTab.tsx
