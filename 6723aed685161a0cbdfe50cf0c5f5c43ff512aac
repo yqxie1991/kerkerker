@@ -1,0 +1,3 @@
+Task: 更新默认管理员密码为 bukan 和默认镜像版本 v2.0
+Track: docker-synology-deployment-optimization (Task 6)
+Summary: Set default admin password to bukan (public project) with prominent security warnings, and set default image version to v2.0 with reminder to check latest release.
