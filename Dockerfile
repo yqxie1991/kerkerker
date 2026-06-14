@@ -47,8 +47,8 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
-# 设置权限
-RUN chown -R nextjs:nodejs /app
+# 创建数据持久化目录并设置权限
+RUN mkdir -p /app/data && chown -R nextjs:nodejs /app
 
 # 切换用户
 USER nextjs
