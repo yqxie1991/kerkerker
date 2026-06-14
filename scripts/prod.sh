@@ -13,7 +13,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}========================================${NC}"
-echo -e "${BLUE}   Kerkerker 生产环境部署脚本${NC}"
+echo -e "${BLUE}   Bukan 生产环境部署脚本${NC}"
 echo -e "${BLUE}========================================${NC}"
 echo ""
 
@@ -46,7 +46,7 @@ if [[ $PUSH_TO_HUB =~ ^[Yy]$ ]]; then
   read -r VERSION
   VERSION=${VERSION:-latest}
 
-  IMAGE_NAME="${DOCKER_USERNAME}/kerkerker"
+  IMAGE_NAME="${DOCKER_USERNAME}/bukan"
   IMAGE_TAG="${IMAGE_NAME}:${VERSION}"
   IMAGE_LATEST="${IMAGE_NAME}:latest"
 
@@ -122,7 +122,7 @@ sleep 10
 # 健康检查
 echo -e "${BLUE}🏥 执行健康检查...${NC}"
 # 从 docker-compose.yml 读取应用端口映射
-APP_PORT=$(grep -A 2 "container_name: kerkerker-app" docker-compose.yml | grep "ports" -A 1 | grep -o '[0-9]*:3000' | cut -d':' -f1)
+APP_PORT=$(grep -A 2 "container_name: bukan-app" docker-compose.yml | grep "ports" -A 1 | grep -o '[0-9]*:3000' | cut -d':' -f1)
 APP_PORT=${APP_PORT:-3000}  # 默认使用 3000
 
 for i in {1..10}; do
